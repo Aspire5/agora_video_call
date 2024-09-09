@@ -30,7 +30,6 @@ class _VideoCallScreenState extends State<VideoCallScreen> {
   }
 
   Future<void> initAgora() async {
-    // retrieve permissions
 
     appId = dotenv.env['APP_ID'] ?? '';
     token = dotenv.env['TOKEN'] ?? '';
